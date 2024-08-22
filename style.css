@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
+  background-color: #040416;
+}
+
+header {
+  padding: 0 2rem;
+  background-color: #1d1d2d;
+  height: 80px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 10%;
+}
+
+header nav .menu {
+  margin-left: auto;
+  padding-right: 2rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #f1eded;
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: small;
+}
+
+header nav ul li i {
+  font-size: 16px;
+  color: #fff;
+}
+
+.body1 .main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+.swap .swap-img {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+.text-content .section3 {
+  margin-top: 1rem;
+}
+.text-content .launch .launch-btn {
+  padding-left: 2rem;
+  padding-right: 5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background: #edb400;
+  border: none;
+  border-radius: 20px;
+}
+
+.swap {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.swap-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, #bbbbbb61, #69666661);
+  margin-bottom: 0.25rem;
+}
+.section2 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  font-weight: 800;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ffef00, #ff6a00, #8b00ff);
+  margin-bottom: 0.25rem;
+  text-align: left;
+}
+.section3 {
+  color: rgb(181, 177, 177);
+  margin-bottom: 1rem;
+}
+
+.launchpad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 7rem;
+  padding-top: 3rem;
+}
+
+.launchpad .launchpad-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  color: rgb(181, 177, 177);
+}
+.launchpad .launchpad-text h1,
+.launchpad .launchpad-text p,
+.launchpad .launchpad-text ul {
+  width: 100%;
+  max-width: 600px;
+}
+.launchpad .launchpad-text p {
+  line-height: 1.5rem;
+  padding-top: 1rem;
+}
+
+.launchpad .launchpad-text ul li i {
+  color: #00ffaa;
+}
+.launchpad .launchpad-text h1 {
+  color: transparent;
+  font-size: 40px;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #a3a3a3, #5f5e5e, #282728);
+}
+.launchpad .launchpad-text ul {
+  padding: 0;
+  list-style: none;
+  line-height: 2rem;
+  padding-top: 1rem;
+}
+.launchpad-img-container .launchpad-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.launchpad-text .launch-btn2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background: #edb400;
+  border: none;
+  border-radius: 20px;
+  margin-top: 1rem;
+  align-self: flex-start;
+}
+
+.token {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+}
+
+.token .token-img {
+  height: auto;
+}
+
+.token .token-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.token-text h1 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #a3a3a3, #5f5e5e, #282728);
+}
+
+.token-text p {
+  color: rgb(181, 177, 177);
+  margin-bottom: 1rem;
+}
+
+.token-text .token-btn {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background: #edb400;
+  border: none;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.chess {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 4rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  text-align: left;
+}
+
+.chess .chess-img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 2rem;
+}
+
+.chess .chess-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+  width: 60%;
+}
+
+.chess .chess-text h1 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #a3a3a3, #5f5e5e, #282728);
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.chess .chess-text p {
+  color: rgb(181, 177, 177);
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+}
+
+.chess .chess-btn {
+  background: #edb400;
+  border: none;
+  border-radius: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.data {
+  background: #121227;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.data-main {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+  order: 1;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.data-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 2;
+  width: 100%;
+}
+
+.data-material {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  order: 3;
+}
+
+.testigoup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #121227;
+  order: 4;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.tegisto {
+  background-color: #281f62;
+  width: 70%;
+  max-width: 100%;
+  border-radius: 15px;
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tegisto-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.tegisto h1,
+.tegisto p {
+  color: rgb(181, 177, 177);
+}
+
+.tegisto h1 {
+  margin-bottom: 1rem;
+}
+
+.tegisto p {
+  padding: 0.5rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+.tegisto-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background: #edb400;
+  border: none;
+  border-radius: 20px;
+  padding: 0 2rem;
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+.material1,
+.material2,
+.material3 {
+  display: flex;
+  align-items: center;
+}
+
+.material1 i,
+.material2 i,
+.material3 i {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.text-content1,
+.text-content2,
+.text-content3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.material1 h3,
+.material2 h3,
+.material3 h3 {
+  margin: 0;
+}
+
+.material1 p,
+.material2 p,
+.material3 p {
+  margin-top: 0.5rem;
+}
+
+.material1 i {
+  color: #4952e4;
+}
+
+.material2 i {
+  color: #c526e9;
+}
+
+.material3 i {
+  color: #046a5f;
+}
+
+.data-text h1 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #a3a3a3, #5f5e5e, #282728);
+}
+
+.data-text p,
+.data-material p {
+  color: rgb(181, 177, 177);
+}
+
+.data h3 {
+  color: rgb(181, 177, 177);
+}
+
+.data-img-container .data-img {
+  height: auto;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 15%;
+  background: #1d1d2d;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer h1 {
+  color: rgb(181, 177, 177);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.footer .footer1 {
+  text-align: left;
+}
+.footer .footer2 {
+  text-align: left;
+}
+
+.footer .footer3 li i {
+  text-align: left;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer li a {
+  text-decoration: none;
+  color: rgb(181, 177, 177);
+  font-size: 0.9rem;
+}
+
+.footer3 li i {
+  color: rgb(181, 177, 177);
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+.footer4up {
+  padding: 0.5rem 5%;
+  background: #363645;
+}
+.footer4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10%;
+  gap: 1rem;
+}
+
+.footer4 .a {
+  color: #6b6b76;
+  margin-left: 1rem;
+}
+
+.footer4 .footer5 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+}
+
+.footer4 .footer5 a {
+  color: white;
+  text-decoration: none;
+}

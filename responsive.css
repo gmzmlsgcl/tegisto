@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  header nav {
+    /* align-items: flex-start;
+    flex-direction: column; */
+    display: none;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  header nav ul li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+  .main-content .text-content .section1 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    margin-top: 2rem;
+  }
+  .main-content .text-content .section2 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.05em;
+  }
+
+  .text-content {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .text-content .launch .launch-btn {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 32px;
+    font-weight: 500;
+    width: 100%;
+  }
+
+  .swap {
+    max-width: 100%;
+    margin-top: 1rem;
+    align-items: center;
+  }
+  .text-content .launch .launch-btn {
+    width: 100%;
+  }
+
+  .launchpad {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1rem;
+  }
+  .launchpad .launch-btn2 {
+    width: 100%;
+  }
+
+  .launchpad .launchpad-text h1 {
+    font-size: 30px;
+  }
+  .launchpad .launchpad-text p {
+    font-size: 10px;
+  }
+  .launchpad .launchpad-text ul i {
+    font-size: 7px;
+  }
+  .launchpad .launchpad-text h1 .token {
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+  }
+  .token {
+    flex-direction: column;
+  }
+
+  .token .token-img {
+    margin-bottom: 1rem;
+    align-items: center;
+    max-width: 100%;
+  }
+  .token .token-text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+  }
+  .token .token-text h1 {
+    padding: 1rem;
+  }
+  .token .token-text .token-btn {
+    width: 100%;
+  }
+
+  .chess {
+    flex-direction: column-reverse;
+    padding: 1rem;
+  }
+
+  .chess .chess-img {
+    align-items: center;
+    margin-top: 1rem;
+    width: 80%;
+  }
+  .chess .chess-text h1 {
+    padding: 1rem;
+  }
+  .chess .chess-text .chess-btn {
+    width: 100%;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+    text-align: left;
+    background: #121227;
+  }
+
+  .data-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    order: 1;
+  }
+
+  .data-main {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: white;
+    width: 100%;
+    order: 2;
+  }
+
+  .data-material {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    order: 3;
+  }
+
+  .data-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .data-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .data-text h1 {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, #a3a3a3, #5f5e5e, #282728);
+  }
+
+  .data-text p,
+  .data-material p {
+    color: rgb(181, 177, 177);
+  }
+
+  .data h3 {
+    color: rgb(181, 177, 177);
+  }
+
+  .material1,
+  .material2,
+  .material3 {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .material1 i,
+  .material2 i,
+  .material3 i {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  .text-content1,
+  .text-content2,
+  .text-content3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .material1 h3,
+  .material2 h3,
+  .material3 h3 {
+    margin: 0;
+  }
+
+  .material1 p,
+  .material2 p,
+  .material3 p {
+    margin-top: 0.5rem;
+  }
+
+  .material1 i {
+    color: #4952e4;
+  }
+
+  .material2 i {
+    color: #c526e9;
+  }
+
+  .material3 i {
+    color: #046a5f;
+  }
+
+  .data .tegisto {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 0;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    flex-wrap: wrap;
+  }
+  .finish .line {
+    border-width: 1px;
+    border-color: #e3e3ea;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 2rem;
+  }
+  .tegisto .tegisto-content {
+    text-align: center;
+  }
+
+  .tegisto .tegisto-btn {
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 90%;
+  }
+
+  .testigoup {
+    order: 4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .finish .footer {
+    flex-direction: row;
+  }
+
+  .footer,
+  .footer4 {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 5%;
+  }
+
+  .footer4 .footer5 {
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
